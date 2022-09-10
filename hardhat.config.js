@@ -36,10 +36,10 @@ module.exports = {
             blockConfirmations: 6,
             gas: 6000000,
         },
-        rinkeby: {
-            url: RINKEBY_RPC_URL,
-            accounts: [PRIVATE_KEY],
-            chainId: 4,
+        goerli: {
+            url: GOERLI_RPC_URL,
+            accounts: [GOERLI_PRIVATE_KEY],
+            chainId: 5,
             blockConfirmations: 6,
         },
     },
